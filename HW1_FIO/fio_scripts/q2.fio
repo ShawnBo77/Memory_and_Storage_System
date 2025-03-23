@@ -1,0 +1,14 @@
+[global]
+filename=/dev/sdb
+bs=4k
+size=64m
+direct=1
+stonewall
+
+[write]
+rw=write
+name=Sequential Write
+
+[randwrite]
+rw=randwrite
+name=Random Write

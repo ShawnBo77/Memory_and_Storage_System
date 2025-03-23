@@ -1,0 +1,12 @@
+[global]
+filename=/dev/sda2
+size=64m
+buffered=0
+rw=read
+stonewall
+
+[bs=4k]
+bs=4k
+
+[bs=1k]
+bs=1k

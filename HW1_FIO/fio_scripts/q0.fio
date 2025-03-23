@@ -1,0 +1,8 @@
+[global]
+filename=/dev/sda2
+bs=4k
+size=1g
+direct=1
+
+[job1]
+rw=read

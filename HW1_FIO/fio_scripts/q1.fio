@@ -1,0 +1,14 @@
+[global]
+filename=/dev/sda2
+bs=4k
+size=64m
+direct=1
+stonewall
+
+[read]
+rw=read
+name=Sequential Read
+
+[randread]
+rw=randread
+name=Random Read
